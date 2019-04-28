@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: red;
+    width:100vw;
+    height:100vh;
+}
+.graph{
+    position: relative;
+    height:600px;
+    width:950px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color:#fff;
+}
+ h1{
+    text-align: center;
+}
+.chart{
+    position: relative;
+    background:#fff;
+}
+.tooltip{
+    position: absolute;
+    width:150px;
+    height: 50px;
+    background:#000;
+    color:#fff;
+    opacity: 0;
+    padding:5px;
+}
+rect{
+    border:0.5px solid #fff;
+}
