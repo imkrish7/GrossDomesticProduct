@@ -17,6 +17,7 @@ body{
     top:50%;
     transform: translate(-50%,-50%);
     background-color:#fff;
+    box-shadow: -1px 1px 3px 3px #000;
 }
  h1{
     text-align: center;
